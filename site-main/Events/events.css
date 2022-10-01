@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.texts {
+  padding-top: 80px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  font-size: 20px;
+}
+
+.container {
+  padding: 0px 30px;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+.text-box {
+  background: #ddd;
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.281);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.281);
+  width: 60%;
+  height: 200px;
+  font-size: 18px;
+  padding: 30px 10px;
+  margin-right: 0px;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.box5 {
+  height: 325px;
+}
+.box6 {
+  height: 275px;
+}
+.box7 {
+  height: 300px;
+}
+.box1,
+.box3 {
+  margin-right: 100px;
+}
+
+.box2,
+.box4 {
+  margin-left: 40%;
+}
+.box6 a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  background: rgb(176, 173, 173);
+  color: #000;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.magic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.clip-path-hexagon {
+  -webkit-clip-path: polygon(
+    25% 0,
+    75% 0,
+    100% 50%,
+    75% 100%,
+    25% 100%,
+    0% 50%
+  );
+  clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.clip-path-shadow {
+  position: absolute;
+  -webkit-filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+.hexagon1 {
+  position: absolute;
+  left: 65%;
+}
+
+.hexagon2 {
+  position: absolute;
+  right: 65%;
+}
+
+.apple2 {
+  background-image: url("../Assets/Pics/img6.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.apple3 {
+  background-image: url("../Assets/Pics/img7.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.apple4 {
+  background-image: url("../Assets/Pics/img8.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.apple5 {
+  background-image: url("../Assets/Pics/img5.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.apple6 {
+  background-image: url("../Assets/Pics/ReliablityLec.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hexagon5,
+.hexagon6,
+.hexagon7,
+.hexagon8 {
+  display: none;
+}
+
+/*# sourceMappingURL=events.css.map */
+
+@media (max-width: 800px) {
+  .hexagon1,
+  .hexagon2,
+  .hexagon3,
+  .hexagon4 {
+    display: none;
+  }
+  .clip-path-shadow {
+    position: relative;
+  }
+  .clip-path-hexagon {
+    position: relative;
+  }
+  .box1,
+  .box2,
+  .box3,
+  .box4 {
+    margin: auto;
+    margin-bottom: 50px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .hexagon5,
+  .hexagon6,
+  .hexagon7,
+  .hexagon8 {
+    margin-bottom: 20px;
+    display: flex;
+  }
+}

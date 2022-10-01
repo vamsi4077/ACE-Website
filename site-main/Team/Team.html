@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+  <link rel="icon" href="../Assets/logo.jpg" />
+  <title>Team</title>
+  <link rel="stylesheet" href="s.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="../ACE/style1.css" />
+</head>
+<style>
+  .carousel-item {
+    height: 100vh;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  body {
+    background-color: black;
+  }
+
+  .content {
+    text-align: center;
+    padding-top: 5%;
+    padding-right: 15%;
+    padding-left: 50%;
+    color: white;
+  }
+
+  .card-body {
+    text-align: center;
+  }
+
+  .single {
+    width: 34%;
+    margin: auto;
+  }
+
+  .doubleonly {
+    width: 68.5%;
+    margin: auto;
+  }
+
+  .list-group-item {
+    text-align: center;
+  }
+
+  .modal-header {
+    background-color: black;
+  }
+
+  .modal-title {
+    color: white;
+  }
+
+  .btn-close {
+    background-color: black;
+    color: white;
+  }
+</style>
+
+<body>
+  <!-- loader -->
+
+  <!-- loaderend -->
+  <nav class="navbar navbar-expand-lg navbar-dark  fixed-top" style="height: 100px;  background-color: #262626;">
+    <div class="container-fluid">
+      <div class="navbar-brand logo" href="#" style=" height:100px">
+        <img src="../Assets/ace_logo2.png" alt="" class="pagelogo">
+        <a href="../ACE/Home.html">ACE</a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" style=" width:100%;display:flex;justify-content:flex-end">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../ACE/Home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="../About/About.html" class="nav-link active">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="../Events/Events.html" class="nav-link active">Events</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://ace-6794.medium.com/" class="nav-link active">Blog</a>
+          </li>
+
+
+          <li class="nav-item">
+            <a href="../Team/Team.html" class="nav-link active">Team</a>
+          </li>
+          <li class="nav-item">
+            <a href="../Gallery/Gallery.html" class="nav-link active">Gallery</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleIndicators" class="carousel slide my-carousel my-carousel carousel-fade" data-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active" style="background-image: url('../ACE/Assets/iitg.jpg')">
+        <div style="text-align: center; padding-top: 40%">
+
+          <button type="button" class="btn btn-outline-primary btn-lg" data-toggle="modal"
+            data-target=".bd-example1-modal-xl">
+            Team Executives
+          </button>
+          <button type="button" class="btn btn-outline-primary btn-lg" data-toggle="modal"
+            data-target=".bd-example2-modal-xl">
+            Third Year Members
+          </button>
+          <button type="button" class="btn btn-outline-primary btn-lg" data-toggle="modal"
+            data-target=".bd-example5-modal-xl">
+            Second Year Members
+          </button>
+        </div>
+      </div>
+
+      <div class="carousel-item" style="background-image: url('../Assets/Pics/img7.jpg')">
+        <div style="text-align: center; padding-top: 40%">
+
+          <button type="button" class="btn btn-outline-primary btn-lg" data-toggle="modal"
+            data-target=".bd-example1-modal-xl">
+            Team Executives
+          </button>
+          <button type="button" class="btn btn-outline-primary btn-lg" data-toggle="modal"
+            data-target=".bd-example2-modal-xl">
+            Third Year Members
+          </button>
+          <button type="button" class="btn btn-outline-primary btn-lg" data-toggle="modal"
+            data-target=".bd-example5-modal-xl">
+            Second Year Members
+          </button>
+        </div>
+      </div>
+
+      <div class="carousel-item " style="background-image: url('../Assets/Pics/img1.jpg')">
+        <div style="text-align: center; padding-top: 40%">
+
+          <button type="button" class="btn btn-outline-primary btn-lg" data-toggle="modal"
+            data-target=".bd-example1-modal-xl">
+            Team Executives
+          </button>
+          <button type="button" class="btn btn-outline-primary btn-lg" data-toggle="modal"
+            data-target=".bd-example2-modal-xl">
+            Third Year Members
+          </button>
+          <button type="button" class="btn btn-outline-primary btn-lg" data-toggle="modal"
+            data-target=".bd-example5-modal-xl">
+            Second Year Members
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade bd-example1-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-header">
+        <h5 style="padding-left: 40%" class="modal-title">Team Executives</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle-fill"
+            viewBox="0 0 16 16">
+            <path
+              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z" />
+          </svg>
+        </button>
+      </div>
+      <div class="modal-content" style="background-color: black">
+        <div class="card-deck">
+          <div class="card mx-3">
+            <img src="Assets/pro.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body" style="padding-bottom: 0px;">
+              <h5 class="card-title">Associate Professor Budhaditya Hazra</h5>
+              <p class="card-text">Faculty Incharge | ACE<br><br><br></p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">budhaditya.hazra@iitg.ac.in</li>
+              <li class="list-group-item">+91-70860 07595</li>
+            </ul>
+            <div class="card-body">
+              <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                </svg></a>
+              <a href="https://www.linkedin.com/in/budhaditya-hazra-62176090/"><svg xmlns="http://www.w3.org/2000/svg"
+                  width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                </svg></a>
+            </div>
+          </div>
+          <div class="card mx-3">
+            <img src="Assets/bhaskar.jpg" class="card-img-top" alt="..." />
+            <div class="card-body" style="padding-bottom: 30px;">
+              <h5 class="card-title">Bhaskar Nandan</h5>
+              <p class="card-text">Vice President | ACE<br><br><br></p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">bhaskar18@iitg.ac.in</li>
+              <li class="list-group-item">+91-90792 69963</li>
+            </ul>
+            <div class="card-body">
+              <a href="https://m.facebook.com/bhaskar055"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                </svg></a>
+              <a href="https://www.linkedin.com/in/bhaskar055"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                  height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                </svg></a>
+            </div>
+          </div>
+          <div class="card mx-3">
+            <img src="Assets/jaskarandeep.jpg" class="card-img-top" alt="..." />
+            <div class="card-body" style="padding-bottom: 55px;">
+              <h5 class="card-title">JaskaranDeep Singh</h5>
+              <p class="card-text">Associate Vice-President | ACE</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item" style="padding-left:7px; padding-right:7px">jaskarandeepsingh@iitg.ac.in
+              </li>
+              <li class="list-group-item">+91-86210 00055</li>
+            </ul>
+            <div class="card-body">
+              <a href="https://www.facebook.com/jdsbandesha"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                  height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                </svg></a>
+              <a href="https://www.linkedin.com/in/karan.bandesha.16"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                  height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                </svg></a>
+            </div>
+          </div>
+
+
+
+          <div class="card mx-3">
+            <img src="Assets/pooja1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body" style="padding-bottom: 55px;">
+              <h5 class="card-title">Pooja Bhatgain</h5>
+              <p class="card-text">Associate Vice-President | ACE</p>
+            </div>
+            <ul class="list-group list-group-flush"></ul>
+            <li class="list-group-item">p.bhatgain@iitg.ac.in</li>
+            <li class="list-group-item">+91-74093 09666</li>
+            </ul>
+            <div class="card-body">
+              <a href="https://www.facebook.com/100012515921870/"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                  height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                </svg></a>
+              <a href="https://www.linkedin.com/in/pooja-bhatgain-7465211a0"><svg xmlns="http://www.w3.org/2000/svg"
+                  width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                </svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+  <div class="modal fade bd-example2-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-header">
+        <h5 style="padding-left: 40%" class="modal-title">
+          Third Year Members
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle-fill"
+            viewBox="0 0 16 16">
+            <path
+              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z" />
+          </svg>
+        </button>
+      </div>
+      <div class="modal-content" style="background-color: black">
+        <div class="card-deck">
+          <div class="card mx-3">
+            <img src="Assets/jaskarandeep.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">jaskarandeep Singh</h5>
+              <p class="card-text">Associate Vice-President, ACE</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">jaskarandeepsingh@iitg.ac.in</li>
+              <li class="list-group-item">+91-86210 00055</li>
+            </ul>
+            <div class="card-body">
+              <a href="https://www.facebook.com/karan.bandesha.16"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                  height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                </svg></a>
+              <a href="https://www.linkedin.com/in/jdsbandesha"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                  height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                </svg></a>
+            </div>
+          </div>
+          <div class="card mx-3">
+            <img src="Assets/pooja1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Pooja Bhatgain</h5>
+              <p class="card-text">Associate Vice-President</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">p.bhatgain@iitg.ac.in</li>
+              <li class="list-group-item">+91-74093 09666</li>
+            </ul>
+            <div class="card-body">
+              <a href="https://m.facebook.com/100012515921870/"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                  height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                </svg></a>
+              <a href="https://www.linkedin.com/in/pooja-bhatgain-7465211a0/"><svg xmlns="http://www.w3.org/2000/svg"
+                  width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                </svg></a>
+            </div>
+          </div>
+          <div class="card mx-3">
+            <img src="Assets/neha.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Neha Kumari</h5>
+              <p class="card-text">Content Head, ACE</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">neha.kumari@iitg.ac.in </li>
+              <li class="list-group-item">+91-91025 79773</li>
+            </ul>
+            <div class="card-body">
+              <a href="https://www.facebook.com/100039856702779/"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                  height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                </svg></a>
+              <a href="https://www.linkedin.com/in/neha-k53/"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                  height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                </svg></a>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="card-deck">
+          <div class="card mx-3">
+            <img src="Assets/sukhveer1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Sukhveer Singh</h5>
+              <p class="card-text">Head | Web Development ,ACE</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">sukhdeepjoganad@gmail.com</li>
+              <li class="list-group-item">+91-98788 04695</li>
+            </ul>
+            <div class="card-body">
+              <a href="https://www.facebook.com/profile.php?id=100046573611935"><svg xmlns="http://www.w3.org/2000/svg"
+                  width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                </svg></a>
+              <a href="https://www.linkedin.com/in/sukhveer"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                  height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                </svg></a>
+            </div>
+          </div>
+          <div class="card mx-3">
+            <img src="Assets/yash1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Yash Kumawat</h5>
+              <p class="card-text">Head | Creatives, ACE</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">ykumawat@iitg.ac.in</li>
+              <li class="list-group-item">+91-93518 02998</li>
+            </ul>
+            <div class="card-body">
+              <a href="https://www.facebook.com/yash.kumawat.1656"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                  height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                </svg></a>
+              <a href="https://www.linkedin.com/in/yash-kumawat-2694b918b"><svg xmlns="http://www.w3.org/2000/svg"
+                  width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                </svg></a>
+            </div>
+          </div>
+          <div class="card mx-3">
+            <img src="Assets/0001.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Vamsi Krishna Saladi</h5>
+              <p class="card-text">Head | PR & Branding, ACE</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">s.vamsi@iitg.ac.in</li>
+              <li class="list-group-item">+91-73966 70700</li>
+            </ul>
+            <div class="card-body">
+              <a href="https://www.facebook.com/vamsikrishnasaladi"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                  height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                </svg></a>
+              <a href="https://www.linkedin.com/in/vamsi-krishna-saladi"><svg xmlns="http://www.w3.org/2000/svg"
+                  width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                </svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+  <div class="modal fade bd-example5-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-header">
+        <h5 style="padding-left: 40%" class="modal-title">
+          Second Year Members
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle-fill"
+            viewBox="0 0 16 16">
+            <path
+              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z" />
+          </svg>
+        </button>
+      </div>
+      <div class="modal-content" style="background-color: black">
+        <div class="card-deck">
+          <div class="card mx-3">
+            <img src="Assets/page2.png" class="card-img-top" alt="..." />
+
+
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script>
+    // make sure window is loaded
+    jQuery(window).on("load", function () {
+      // will first fade out the loading animation
+      jQuery("#status").fadeOut();
+      // will fade out the whole DIV that covers the website.
+      jQuery("#preloader").delay(1000).fadeOut("slow");
+    });
+  </script>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
